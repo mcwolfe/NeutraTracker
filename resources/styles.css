@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: darkgreen;
+    margin-top: 50px;
+}
+
+#tracker {
+    display: inline-block;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#neutralinoapp {
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#neutralinoapp h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#neutralinoapp > div {
+    font-size: 16px;
+    font-weight: normal;
+}
